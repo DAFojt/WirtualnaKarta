@@ -31,7 +31,6 @@ public class MainActivity extends Activity {
     TextView textbig;
     static Account CL_actual_card;
     int operation = 0;
-
     int actual_id;
     int getCards_amount()
     {
