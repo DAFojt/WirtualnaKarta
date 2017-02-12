@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="652dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="117dp"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Wirtualna karta"
+            android:id="@+id/textView"
+            android:layout_gravity="center_horizontal|top"
+            android:textSize="50dp"
+            android:gravity="center" />
+
+        <TextView
+            android:layout_width="376dp"
+            android:layout_height="265dp"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Nie dodano jeszcze wirtualnej karty kredytowej. Przybliż dowolną kartę NFC do tylnej obudowy telefonu aby aktywować swoją pierwszą wirtualną kartę kredytową :)              Z reguły może być to karta studencka, karta ŚKUP, lub nawet inny telefon komórkowy z włączoną funkcją NFC!"
+            android:id="@+id/textView2"
+            android:layout_gravity="center" />
+    </FrameLayout>
+</LinearLayout>

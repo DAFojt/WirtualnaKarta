@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:paddingBottom="@dimen/activity_vertical_margin"
+android:paddingLeft="@dimen/activity_horizontal_margin"
+android:paddingRight="@dimen/activity_horizontal_margin"
+android:paddingTop="@dimen/activity_vertical_margin"
+tools:context="com.example.dominik.wirtualnakarta.MainActivity"
+    android:background="#000000">
+
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentEnd="false">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="193dp"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Wirtualna karta płatnicza"
+            android:id="@+id/textView10"
+            android:layout_gravity="center_horizontal|top"
+            android:textSize="40dp"
+            android:gravity="center"
+            android:textColor="#ffffff" />
+
+        <TextView
+            android:layout_width="310dp"
+            android:layout_height="284dp"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Nie dodano jeszcze wirtualnej karty płatniczej. Przybliż dowolną kartę NFC do tylnej obudowy telefonu aby aktywować swoją pierwszą wirtualną kartę :)                           Z reguły może być to karta studencka, karta ŚKUP, lub nawet inny telefon komórkowy z włączoną funkcją NFC!"
+            android:id="@+id/textView11"
+            android:layout_gravity="center_horizontal|bottom"
+            android:textColor="#ffffff" />
+    </FrameLayout>
+</RelativeLayout>
