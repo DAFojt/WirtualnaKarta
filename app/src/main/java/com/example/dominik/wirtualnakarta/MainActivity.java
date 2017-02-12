@@ -37,7 +37,6 @@ public class MainActivity extends Activity {
         return cards_amount;
     }
 
-
     public void new_card_action()
     {
         if((Account) getIntent().getExtras().getSerializable("Card")!=null) {
