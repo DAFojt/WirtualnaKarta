@@ -33,7 +33,6 @@ public class MainActivity extends Activity {
     int operation = 0;
 
     int actual_id;
-
     int getCards_amount()
     {
         return cards_amount;
